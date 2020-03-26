@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YouTube Celebrities</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+
+<body>
+  <div id="container">
+    <h1>Celebrities who Started YouTube Channels</h1>
+    <p>Social media has taken the world by storm. Famous actors, models, chefs and others have adapted to the world of social media by creating their own YouTube channel.</p>
+
+    <p> Need something to do during quarantine? Click on a celebrity's name to find out about their YouTube channel. </p>
+
+    <ul class="list">
+      {% for pair in pairs %}
+        <li><a href="{{  url_for('celebrity', num=pair[0])  }}">{{ pair[1] }}</a> </li>
+      {% endfor %}
+    </ul>
+  </div>
+</body>
+</html>

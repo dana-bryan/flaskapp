@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tia Mowry</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/main.css">
+</head>
+
+<body>
+  <div id="container">
+    <h1>Tia Mowry</h1>
+
+    <p>Tia Mowry is a actor. Tia Mowry has 700K subscribers and has made 121 videos.</p>
+
+
+    <p><a href="../index.html"> Return to the list</a> to select a different celebrity.</p>
+  </div>
+</body>
+</html>
